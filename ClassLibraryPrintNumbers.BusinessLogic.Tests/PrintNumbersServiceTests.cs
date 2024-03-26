@@ -71,7 +71,7 @@ namespace ClassLibraryPrintNumbers.BusinessLogic.Tests
         [TestCategory("LongRunning")]
         public void When_ValidInputMaxValue_Return_ValidResult()
         {
-            var upperBound = int.MaxValue / 10;
+            var upperBound = int.MaxValue;
             var result = PrintNumbersService.GetNumbersToPrint(upperBound, 3, 5, "John", "Smith");
             var counter = 0;
             string firstItem = string.Empty;
