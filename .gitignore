@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ClassLibraryPrintNumbers.BusinessLogic/bin/Debug/net8.0
+/ClassLibraryPrintNumbers.BusinessLogic/obj
+/ClassLibraryPrintNumbers.BusinessLogic.Tests/bin/Debug/net8.0
+/ClassLibraryPrintNumbers.BusinessLogic.Tests/obj
+/.vs
+/PrintNumbers.ConsoleApp/bin/Debug/net8.0
+/PrintNumbers.ConsoleApp/obj
